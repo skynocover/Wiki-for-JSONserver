@@ -1,0 +1,39 @@
+@url=http://localhost:3000
+
+################################################################
+
+GET {{url}}/posts
+
+######
+
+POST {{url}}/posts
+Content-Type: application/json
+
+{
+    "id": 2,
+    "title": "My test",
+    "author": "10codeing"
+}
+
+####
+PUT {{url}}/posts/2
+Content-Type: application/json
+
+{
+    "title": "New 2",
+    "author": "iasdfasdfasdf"
+}
+
+#############
+PATCH {{url}}/posts/2
+Content-Type: application/json
+
+{
+    "title": "Patch 2"
+}
+
+#########
+DELETE {{url}}/posts/1
+
+
+

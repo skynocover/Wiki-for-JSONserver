@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "title": "Patch 2",
+      "author": "iasdfasdfasdf",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
